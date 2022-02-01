@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="fr">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portrait Chinois Amezir Messaoud</title>
+    <link rel="stylesheet" href="style.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link rel="icon" type="icon" href="img/fav-ico.png">
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@700&display=swap" rel="stylesheet">
+</head>
+
+<body>
+    <!--btn qui monte en haut de la page -->
+    <a class="btn-top" href="#top">
+        <svg src="img/direction.svg" width="24" height="20">
+            <path d="M0 16.67l2.829 2.83 9.175-9.339 9.167 9.339 2.829-2.83-11.996-12.17z"></path>
+        </svg>
+    </a>
+    <!--modal btn-->
+    <section class="background">
+
+        <button id="show-modal-btn">Information</button>
+        <div id="overlay">
+            <div id="modal">
+                <h3 class="modaltxt">Qu'est-ce que c'est un portrait chinois ?</h3>
+                <p class="modaltxt">Un portrait chinois est un jeu littéraire de type questionnaire de Proust où il
+                    s'agit de déceler, à travers un questionnaire, certains aspects de la personnalité d'un individu ou
+                    d'identifier ses goûts ou ses préférences personnelles.</p>
+                <button id="close-modal-btn">Fermer</button>
+            </div>
+        </div>
+        <!--Page du titre -->
+        <div class="titre">
+            <h1 class="textmid" id="home">Si j'étais <span class="clignote">Amezir</span>, je serais ...</h1>
+            <a href="#dieu-grec" id="btn">↓ DÉCOUVRIR ↓</a>
+        </div>
+
+    </section>
+    <!--Mes si j'étais je serais-->
+    <div id="list-analogies">
+
+    </div>
+    <!--page de la création  des utilisateurs-->
+    <section class="titre2" id="vous">
+        <h1 class="textmid2">Si j'étais <span class="clignote">Vous</span>, je serais ...</h1>
+        <a href="#Formulaire" id="btn">↓ Créé ta catégorie ↓</a>
+    </section>
+    <!--Formulaire -->
+    <section class="formu" id="Formulaire">
+        <main class="styleform">
+            <form action="" method="post">
+                <h3>Mail</h3>
+                <input type="email" placeholder="Ton mail" id="mail" required>
+                <h3>Si j'étais ...</h3>
+                <input type="text" placeholder="(exemple:un Dieu grec,un Animal etc...)" id="analogie" required>
+                <h3>Je serais ...</h3>
+                <input type="text" placeholder="(exemple:poseidon,un loup etc...)" id="valeurAnalogie" required>
+                <h3>Images</h3>
+                <input type="url" id="imganalogie" name="imganalogie" placeholder="L'url d'une image" required>
+                <h3>Arguments</h3>
+                <textarea class="arg" type="text" placeholder="(exemple:blabla car blabla)" id="arganalogie" cols="40"
+                    rows="5" spellcheck="true"></textarea>
+                <p class="formbtn">
+                    <input type="submit" value="Envoyer et Créer" id="sub" name="sub">
+                </p>
+                <div id="message"></div>
+            </form>
+        </main>
+    </section>
+    <!--Les si j'étais je serais des utilisateurs -->
+    <div id="you">
+
+    </div>
+    <!--Mentions Légales-->
+    <footer id="footer">
+        <div class="volet-invisible" id="volet">
+            <h4>Mentions Légales</h4>
+
+            <p>ÉDITEUR</p>
+            <p>Directeur de la publication,Conception graphique et Développement : Amezir Messaoud, étudiant de
+                l’Université Gustave Eiffel</p>
+            <p>Hébergeur : Université Gustave Eiffel</p>
+            <p>Université Gustave Eiffel : 5 boulevard Descartes - Champs-sur-Marne - 77454 Marne-la-Vallée Cedex2 - Tél
+                : 33(1).60.95.75.00 - Fax : 33(1).60.95.75.75</p>
+
+            <p>Images</p>
+            <p><a
+                    href="https://www.flaticon.com/fr/icone-premium/poseidon_2298934?term=poseidon&page=1&position=16&page=1&position=16&related_id=2298934&origin=search">poseidon.png</a>
+                <a
+                    href="https://www.flaticon.com/fr/icone-gratuite/renard_616685?term=renard&page=1&position=12&page=1&position=12&related_id=616685&origin=search">renard.png</a>
+                <a
+                    href="https://www.flaticon.com/fr/icone-premium/une-rose_2343479?term=rose&page=1&position=10&page=1&position=10&related_id=2343479&origin=search">rose.png</a>
+                <a
+                    href="https://www.flaticon.com/fr/icone-gratuite/cercle_319873?term=noir&page=1&position=12&page=1&position=12&related_id=319873&origin=search">noir.png</a>
+                <a
+                    href="https://www.flaticon.com/fr/icone-gratuite/la-musique_3393896?term=musique&page=1&position=10&page=1&position=10&related_id=3393896&origin=search">musique.png</a>
+                <a
+                    href="https://www.flaticon.com/fr/icone-premium/tasse-a-cafe_3361135?term=cafe&page=1&position=20&page=1&position=20&related_id=3361135&origin=search">café.png</a>
+                <a
+                    href="https://www.flaticon.com/fr/icone-gratuite/gemme_5938126?term=pierre%20precieuse&page=1&position=20&page=1&position=20&related_id=5938126&origin=search">pierre-précieuse.png</a>
+            </p>
+            <p>Législation relative aux données à caractère personnel</p>
+            <p>Le formulaire permettant la création d’une analogie personnalisée recueil votre adresse de courriel et
+                votre adresse IP.
+                Pour toute question portant sur la collecte ou le traitement de vos données à caractère personnel par
+                l’UPEM, vous pouvez saisir la personne responsable du traitement des données qui est : Philippe Gambette
+                (philippe.gambette@univ-eiffel.fr)
+                Les fichiers détenus par l'UPEM qui comportent des données à caractère personnel ne seront jamais
+                transmis à des tiers et ne feront jamais l'objet d'une commercialisation.</p>
+            <p>©2022 Tous droits réservés par AMEZIR MESSAOUD.</p>
+        </div>
+    </footer>
+    <script src="script.js"></script>
+</body>
+
+</html>

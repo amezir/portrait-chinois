@@ -1,0 +1,357 @@
+*,*::after,::before{
+    box-sizing: border-box;
+}
+
+html {
+    -ms-scroll-snap-type: y mandatory;
+    scroll-snap-type: y mandatory;
+    scroll-behavior: smooth;
+  }
+body
+{
+    background-color: #000000;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 16px;
+    margin: 0 auto;
+}
+.background{
+    background-image: url(img/fond.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: auto;
+}
+section{
+    scroll-snap-align: start;
+    scroll-snap-stop: always;
+}
+/* titre vert qui clignote */
+.titre
+{
+    display: flex;
+    position: relative;
+    width: 100%;
+    min-height: 100vh;
+    justify-content: center;
+    align-items: center;
+}
+
+.textmid
+{
+    position: absolute;
+    color: #ffffff;
+    font-size: 5em;
+    text-align: center;
+    text-shadow: 
+    0 0 10px #fff,
+    0 0 11px #fff,
+    0 0 30px #eb45b9,
+    0 0 50px #eb45b9,
+    0 0 60px #eb45b9;
+    transform: translateY(-50%);
+}
+/* titre rouge qui clignote */
+.titre2
+{
+    display: flex;
+    position: relative;
+    width: 100%;
+    min-height: 100vh;
+    justify-content: center;
+    align-items: center;
+    background-image: url(img/fond.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: auto;
+}
+
+.textmid2
+{
+    position: absolute;
+    color: #ffffff;
+    font-size: 5em;
+    text-align: center;
+    text-shadow: 
+    0 0 10px #fff,
+    0 0 11px #fff,
+    0 0 30px #eb4545,
+    0 0 50px #eb4545,
+    0 0 60px #eb4545;
+    transform: translateY(-50%);
+}
+/* bouton decouvrir et crée ta catégorie */
+#btn
+{
+    text-decoration: none;
+    display: inline-block;
+    padding: 8px 30px;
+    border-style: solid;
+    border-color: #ffffff;
+    color: #ffffff;
+    font-size: 1,2em;
+    font-weight: 500;
+    letter-spacing: 2px;
+    border-radius: 50px;
+    transform: translateY(100px);
+}
+/* scrollbar  */
+body::-webkit-scrollbar {
+    width: 10px;
+  }
+  
+  body::-webkit-scrollbar-track {
+    background: rgb(0, 0, 0);
+  }
+  
+  body::-webkit-scrollbar-thumb {
+    background-color: #eb45b9;
+    box-shadow: 
+    0 0 10px rgb(255, 255, 255),
+    0 0 30px #eb45b9,
+    0 0 50px #eb45b9,
+    0 0 60px #eb45b9;;
+    border-radius: 20px;
+    height: 100px;
+  }
+/* les titre H1 */
+h1{
+    text-align: center;
+    font-size: 3em;
+}
+/* classe des section de si j'étais, je serais ... */
+.sec{
+    height: 100vh;
+    display:block;
+}
+
+.sec:nth-child(odd)
+{
+    background-color: whitesmoke;
+    padding-top: 5px;
+}
+
+.sec:nth-child(even)
+{
+    background-color: black;
+    color: #fff;
+    padding-top: 5px;
+}
+/* Formulaire */
+form{
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+}
+.formu{
+    background-color: whitesmoke;
+    display: flex;
+    margin: 0 auto;
+    height: 100vh;
+}
+
+.styleform{
+    align-items: center;
+    justify-content: center;
+    margin: 0 auto;
+    width: 400px;
+  }
+  input[type="submit"]{
+    background-color: #6ded82;
+    border: none;
+    color: white;
+    font-size: 1.1rem;
+    box-shadow: 4px 4px black;
+    cursor: pointer;
+  }
+
+input{
+    width: 300px;
+    height: 35px;
+    margin: 0 auto;
+    margin-bottom: 20px;
+    border: 1px solid rgb(0, 0, 0);
+}
+
+input:required{
+    border: 2px solid red;
+}
+
+input:required:valid{
+    border: 2px solid green;
+}
+.arg{
+    height: 100px;
+    overflow-wrap: break-word;
+}
+.formbtn{
+    padding-top: 20px;
+}
+h3{
+    margin: 10px;
+}
+textarea {
+    resize: none;
+  }
+/* texte qui clignote */
+.clignote:nth-child(odd) {
+    color:#ffffff;
+    animation: clignote 2s linear infinite;
+  }
+  @keyframes clignote {  
+    50% { opacity: 0; }
+  }
+
+.clignote:nth-child(even) {
+    color:#ffffff;
+    animation: clignote 2s linear infinite;
+  }
+  @keyframes clignote {  
+    50% { opacity: 0; }
+  }
+/* mentions légale */
+.volet-visible{
+    text-align: center;
+    background-color: black;
+    color: #ffffff;
+    height: auto;
+    overflow: hidden;
+    cursor: pointer;
+}
+
+.volet-invisible{
+    text-align: center;
+    color: #ffffff;
+    height: 3em;
+    overflow: hidden;
+    cursor: pointer;
+}
+
+footer{
+    height: 8em;
+    scroll-snap-align: start;
+    scroll-snap-stop: always;
+}
+/* class pour les justification de texte */
+.justify{
+    text-align: center;
+    margin: 50px;
+    margin-left: auto;
+    margin-right: auto;
+    width:  90%;
+    max-width: 800px;
+    overflow-wrap: break-word;
+}
+/* image*/
+.image{
+    height: 30%;
+    display: flex;
+    margin-left: auto;
+    margin-right: auto;
+
+}
+/* bouton haut et bas de page*/
+.top{
+    position: relative;
+    color: #ffffff;
+    text-align: right;
+    justify-content: right;
+    align-items: right;
+}
+.down{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+/*modal*/
+#overlay {
+    display: none;
+    position: fixed;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    z-index: 1;
+    background-color: rgba(0,0,0,0.5);
+ }
+ #modal {
+    max-width:500px;
+    height: 200px;
+    top: 0;
+    bottom: 0;
+    right: 0;
+    left: 0;
+    margin: auto;
+    position:absolute;
+    background-color: white;
+    box-shadow:
+    0 0 30px #ffffff,
+    0 0 50px #ffffff,
+    0 0 60px #ffffff;;
+ }
+#show-modal-btn{
+    margin: 0;
+    background-color: #eb45b9;
+    border: none;
+    color: white;
+    font-size: 1.1rem;
+    cursor: pointer;
+    box-shadow:
+    0 0 30px #eb45b9,
+    0 0 50px #eb45b9,
+    0 0 60px #eb45b9;;
+ }
+#close-modal-btn{
+    margin: 0;
+    background-color: #ed6d6d;
+    border: none;
+    color: white;
+    font-size: 1.1rem;
+    box-shadow: 4px 4px black;
+    position: absolute;
+    right: 5px;
+    bottom: 5px;
+    cursor: pointer;
+ }
+.modaltxt{
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+}
+/*image importer*/
+.img{
+    height: 250px;
+    display: flex;
+    margin-left: auto;
+    margin-right: auto
+}
+
+/*bouton qui vas en haut*/
+.btn-top {
+	position: fixed;
+	bottom: 0;
+	padding: 15px;
+	margin: 20px;
+	cursor: pointer;
+    fill: #eb45b9;
+    z-index: 1;
+}
+/*link*/
+a:link {
+    color: #eb45b9;
+    background-color: transparent;
+    text-decoration: none;
+  }
+  a:visited {
+    color: #f5a3dc;
+    background-color: transparent;
+    text-decoration: none;
+  }
+  a:hover {
+    color: #c9a3f5;
+    background-color: transparent;
+    text-decoration: underline;
+  }
+  a:active {
+    color: lightgreen;
+    background-color: transparent;
+    text-decoration: underline;
+  }

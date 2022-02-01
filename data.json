@@ -1,0 +1,58 @@
+[
+    {
+        "analogie": "un Dieu grec",
+        "Valeuranalogie": " POSÉIDON",
+        "justify": "Depuis petit j’aime beaucoup la mer, la nage, les poissons etc. Enfin tout ce qui concerne l'eau en général. Et comme souvent la représentation de tout l'univers de l'eau est représentée par Poséidon. Il est le plus souvent représenté en Dieu de la mer, avec pour attributs le trident, le dauphin et le thon. Certaines personnes l'identifient au dieu de la mer Neptune.",
+        "img": "img/poseidon.png",
+        "id": "dieu-grec",
+        "down": "\u0023animal"
+    },
+    {
+        "analogie": "un Animal",
+        "Valeuranalogie": " un RENARD",
+        "justify": "Il n’est pas né celui qui me dira comment il faut vivre, penser, aimer… Mon tempérament indépendant me pousse à refuser les idées reçues et à mener mon existence comme je l’entends. Comme le renard, j'ai un caractère vif, rusé, inventif. Je suis capable de découvrir des chemins de traverse inexplorés pour doubler et surprendre tout le monde en arrivant là où l’on ne m'attend pas!",
+        "img": "img/renard.png",
+        "id": "animal",
+        "down": "\u0023fleur"
+    },
+    {
+        "analogie": "une Fleur",
+        "Valeuranalogie": " une ROSE",
+        "justify": "Vous allez me dire pourquoi  les roses rouges, car pour moi elles sont un symbole d’amour et de passion.Elles expriment aussi la reconnaissance, le respect, l’admiration du courage.Et pour vous dire j'ai re designé une rose et je me la suis faite tatouée dans le cou.",
+        "img": "img/rose.png",
+        "id": "fleur",
+        "down": "\u0023couleur"
+    },
+    {
+        "analogie": "une Couleur",
+        "Valeuranalogie": " la couleur NOIR",
+        "justify": "Comme le prouve chaque arc-en-ciel, le noir ne fait pas partie du spectre visible des couleurs.Le noir s'oppose ainsi à toutes les couleurs, mais surtout au blanc, la plus claire de toutes les couleurs. Il représente sophistication, élégance, pouvoir et luxe. Il s'agit d'une excellente option pour les situations plus formelles ou celles qui exigent une certaine discrétion.C'est pour cela que j'aime le noir.",
+        "img": "img/noir.png",
+        "id": "couleur",
+        "down": "\u0023musique"
+    },
+    {
+        "analogie": "une Musique",
+        "Valeuranalogie": "<a href=\"https://www.youtube.com/watch?v=TWlQF0rO6Zc\"> SPECIAL de LAYLOW feat NEKFEU & FOUSHEÉ</a>",
+        "justify": "J'adore particulièrement Laylow et Nekfeu mais leur feat sur SPECIAL avec FOUSHEÉ est incroyable. Cette musique nous apprend que notre monde n'est pas normal mais que surtout, nous-mêmes on est spéciale. Sincèrement je ne vais pas en dire plus juste écouter le Song et regarder le clip.Vous n’allez pas être déçus !",
+        "img": "img/musique.png",
+        "id": "musique",
+        "down": "\u0023boisson"
+    },
+    {
+        "analogie": "une Boisson",
+        "Valeuranalogie": " du café",
+        "justify": "Depuis que j'ai découvert cet élixir ma vie a changé, par contre je n’en prends pas tout le temps. En effet, cela peut être addictif. Cependant, je n’en prends un que lorsque j'ai un coup de mou ou pour bien me réveiller le matin. En d’autres termes , pour commencer ma journée les batteries chargées. Il est rare de ne pas me voir de bon matin avec un café dopé au sucre !",
+        "img": "img/café.png",
+        "id": "boisson",
+        "down": "\u0023pierre-précieuse"
+    },
+    {
+        "analogie": "une Pierre précieuse",
+        "Valeuranalogie": " L'Aigue-marine",
+        "justify": "Comme l'aigue-marine j'ai ses vertus, je suis joyeux, créatif. J'aurais la vertu de libérer des émotions enfouies en apportant l’apaisement, la clairvoyance et la paix intérieure. Petite référence en lithothérapie ce minéral est utilisé pour ses propriétés énergétiques d’apaisement.",
+        "img": "img/pierre-précieuse.png",
+        "id": "pierre-précieuse",
+        "down": "\u0023vous"
+    }
+]
